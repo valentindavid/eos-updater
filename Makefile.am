@@ -279,6 +279,7 @@ BUILT_SOURCES += $(eos_updater_resource_sources)
 CLEANFILES += $(eos_updater_resource_sources)
 EXTRA_DIST += \
 	eos-updater/eos-updater.gresource.xml \
+	eos-updater/tests/mock-eos-updater.py \
 	$(eos_updater_resource_deps) \
 	$(NULL)
 
